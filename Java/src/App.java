@@ -7,7 +7,7 @@ public class App {
             // Create a new deck
             Deck deck = Deck.newDeck();
 
-            // TODO: shuffle the deck
+            // shuffle the deck
             deck.shuffle();
             System.out.println("Shuffling...");
 
