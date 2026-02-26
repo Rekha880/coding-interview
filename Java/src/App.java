@@ -8,6 +8,7 @@ public class App {
             Deck deck = Deck.newDeck();
 
             // TODO: shuffle the deck
+            deck.shuffle();
             System.out.println("Shuffling...");
 
             // Deal all the cards
@@ -21,4 +22,4 @@ public class App {
             System.out.println("**********");
             System.out.println();
     }
-}
+   
