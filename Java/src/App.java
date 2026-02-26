@@ -9,7 +9,7 @@ public class App {
 
             // shuffle the deck
             deck.shuffle();
-            System.out.println("Shuffling...");
+            //System.out.println("Shuffling...");
 
             // Deal all the cards
             while (deck.isEmpty() == false)
