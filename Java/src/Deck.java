@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 import java.util.Stack;
 import java.util.stream.Collectors;
 
@@ -36,4 +38,12 @@ public class Deck {
             return null;
         }
     }
-}
+    //Added shuffling method
+	public void shuffle() {
+		System.out.println("Shuffling deck...");
+		Collections.shuffle(this.cards, new Random());
+		System.out.println("Deck shuffled.\n");
+		}
+		
+	}
+
